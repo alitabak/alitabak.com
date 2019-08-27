@@ -1,24 +1,37 @@
 <!DOCTYPE html> <!-- Declare the Doctype of an HTML Document, says to browser that I am using HTML5 as a version of HTML. The ! and uppercase DOCTYPE is important, especially for older browsers -->
+
 <html lang="en"> <!-- the rest of my HTML code needs to be wrapped in html tags. The opening <html> goes directly below the <!DOCTYPE html> line, and the closing </html> goes at the end of the page.-->
 <!-- Define the Head and Body of an HTML Document -->
+
 <head> <!-- Any markup with information about your page would go into the head tag. Metadata elements, such as link, meta, title, and style, typically go inside the head element. -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Ali Tabak</title>
 </head>
 
+	<style media="screen">
+			.smaller-image {
+			width: 200px;
+			border-radius: 70%;
+			}
+</style>
+
 <body> <!-- Then any markup with the content of the page (what displays for a user) would go into the body tag. -->
-  <h1>Ali Tabak</h1>
-	<p>Economist exploring tech and coding</p>
-	<div>
+
+		<h1>Ali Tabak</h1>
+		<p>
+			Economist exploring tech and coding
+		</p>
+
+		<div>
    		<a href="https://www.linkedin.com/in/alitabak/" target="_blank">LinkedIn</a>
 	 		<a href="https://www.xing.com/profile/Ali_Tabak5/cv" target="_blank">Xing</a>
    		<a href="https://github.com/alitabak" target="_blank">GitHub</a>
-  </div>
-	<!--try to make it more round about your circle photo-->
-  <img src="ali-crop.jpg" alt="">
-  <!--<img src="ali2.jpg" alt="">hier ist mit der Augen die andere hat aber keine irgerndwie-->
-
+  	</div>
+					<!--try to make it more round about your circle photo-->
+  	<img class="smaller-image" src="ali-crop.jpg" alt="">
+  				<!--<img src="ali2.jpg" alt="">hier ist mit der Augen die andere hat aber keine irgerndwie-->
+	</header>
 </body>
 
 </html>
